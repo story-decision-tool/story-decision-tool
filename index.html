@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBASE Story Decision Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Story telling compass.png" alt="Story Compass" class="header-image">
+        <h1>eBASE Story Decision Tool</h1>
+    </header>
+    <main>
+        <form id="storyForm">
+            <h2>Who is your target audience?</h2>
+            <select name="audience">
+                <option value="Policymakers">Policymakers</option>
+                <option value="Practitioners">Practitioners</option>
+                <option value="People">People</option>
+                <option value="Researchers">Researchers</option>
+                <option value="Donors/Funders/Dev agencies">Donors/Funders/Dev agencies</option>
+            </select>
+
+            <h2>What do you want the story to be about?</h2>
+            <select name="about">
+                <option value="Process">Process Story</option>
+                <option value="Narrative">Narrative Story</option>
+                <option value="Impact">Impact Story</option>
+                <option value="Creative">Creative Story</option>
+            </select>
+
+            <h2>What message do you want to convey?</h2>
+            <select name="message">
+                <option value="Evidence is complex">Getting evidence on what works is complex</option>
+                <option value="Results for decisions">There is results you can use for decisions</option>
+                <option value="Impact lives">Lives can be impacted with effective interventions</option>
+                <option value="Policy needs evidence">Policies need to be evidence-informed</option>
+                <option value="Practice needs evidence">Practice needs to be evidence-informed</option>
+                <option value="People make choices">People need to make evidence-based choices</option>
+            </select>
+
+            <h2>Why do you want to tell this story?</h2>
+            <select name="why">
+                <option value="Knowledge">Improve knowledge</option>
+                <option value="Behavior">Change behavior</option>
+                <option value="Investments">Stimulate investments</option>
+                <option value="Engagement">Stimulate community engagement</option>
+                <option value="Culture">Change workplace culture</option>
+            </select>
+
+            <h2>How do you want to tell this story?</h2>
+            <select name="how">
+                <option value="Online">Online</option>
+                <option value="TV">Television</option>
+                <option value="Radio">Radio</option>
+                <option value="In-person">In-person meetings</option>
+                <option value="Stage">On stage performance</option>
+            </select>
+
+            <h2>When do you want to tell this story?</h2>
+            <select name="when">
+                <option value="Today">Today</option>
+                <option value="Month">Within a month</option>
+                <option value="6 Months">Within 6 months</option>
+                <option value="Year">Within 12 months</option>
+            </select>
+
+            <h2>Any events or seasons you are targeting?</h2>
+            <select name="season">
+                <option value="Harvest">Harvest season</option>
+                <option value="Rainy">Rainy season</option>
+                <option value="Winter">Winter</option>
+                <option value="Summer">Summer</option>
+                <option value="After Exams">After school exams</option>
+            </select>
+
+            <h2>Where do you want to tell this story?</h2>
+            <select name="where">
+                <option value="City hall">City hall</option>
+                <option value="Village">Village Square</option>
+                <option value="Market">Market place</option>
+                <option value="Parliament">Parliament building</option>
+                <option value="School">School</option>
+                <option value="Church">Church</option>
+                <option value="Conference">Conference</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
